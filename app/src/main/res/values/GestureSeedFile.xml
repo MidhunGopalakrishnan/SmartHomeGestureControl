@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gesture_list">
+        <item>Turn on lights</item>
+        <item>Turn off lights</item>
+        <item>Turn on fan</item>
+        <item>Turn off fan</item>
+        <item>Increase fan speed</item>
+        <item>Decrease fan speed</item>
+        <item>Set Thermostat to specified temperature</item>
+        <item>Gesture for digit 0</item>
+        <item>Gesture for digit 1</item>
+        <item>Gesture for digit 2</item>
+        <item>Gesture for digit 3</item>
+        <item>Gesture for digit 4</item>
+        <item>Gesture for digit 5</item>
+        <item>Gesture for digit 6</item>
+        <item>Gesture for digit 7</item>
+        <item>Gesture for digit 8</item>
+        <item>Gesture for digit 9</item>
+    </string-array>
+</resources>
