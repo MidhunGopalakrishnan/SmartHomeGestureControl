@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="gesture_list">
+        <item>Select a Gesture</item>
         <item>Turn on lights</item>
         <item>Turn off lights</item>
         <item>Turn on fan</item>
