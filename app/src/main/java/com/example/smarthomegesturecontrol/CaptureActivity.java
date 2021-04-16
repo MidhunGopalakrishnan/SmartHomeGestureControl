@@ -144,6 +144,7 @@ public class CaptureActivity extends AppCompatActivity {
                 if (serverResponse != null) {
                     if (serverResponse.getSuccess()) {
                         Toast.makeText(getApplicationContext(), serverResponse.getMessage(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Files uploaded successfully to server!", Toast.LENGTH_SHORT).show();
                     } else {
                         Toast.makeText(getApplicationContext(), serverResponse.getMessage(), Toast.LENGTH_SHORT).show();
                     }
@@ -151,7 +152,7 @@ public class CaptureActivity extends AppCompatActivity {
                     assert serverResponse != null;
                     Log.v("Response", serverResponse.toString());
                 }
-                // any activity after successful upload
+
             }
 
             @Override
